@@ -1,0 +1,43 @@
+@0
+
+
+@1
+MOV UP,ACC
+SAV
+MOV ACC,DOWN
+
+@2
+
+
+@3
+
+
+@4
+MOV 1,ACC
+S:
+SWP
+JMP S
+
+@5
+MOV UP,DOWN
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV UP,RIGHT
+
+@10
+MOV 1,ACC
+MOV ACC,RIGHT
+MOV RIGHT,RIGHT
+
+@11
+MOV LEFT,ACC
+MOV ACC,LEFT

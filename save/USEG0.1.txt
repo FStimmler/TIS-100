@@ -1,0 +1,47 @@
+@0
+
+
+@1
+S:
+MOV UP,ACC
+SAV
+MOV UP,ACC
+JNZ SUM
+SWP
+SUB UP
+MOV ACC,DOWN
+JMP S
+SUM:
+SWP
+ADD UP
+MOV ACC,DOWN
+JMP S
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV UP,DOWN
+
+@6
+
+
+@7
+
+
+@8
+
+
+@9
+MOV UP, RIGHT
+
+@10
+MOV LEFT,DOWN
+
+@11
